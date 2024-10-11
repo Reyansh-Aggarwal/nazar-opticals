@@ -5,7 +5,7 @@ function App() {
     <div>
 
       <div className="Home" style={{width: '100%', height: '100%', position: 'relative', background: 'white', margin:0}}>
-        <img className="Bgimage" style={{width: 'auto', height: 'auto', left: 0, top: 0, position: 'absolute'}} src="./public/bg.png" />
+        <img className="Bgimage" style={{width: 'auto', height: 'auto', left: 0, top: 0, position: 'absolute'}} src="bg.png" />
         <div className="Bgmask" style={{width: 393, height: 852, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0.43)', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}} />
         <div className="ShopSpectacles" style={{width: 143, height: 33, left: 47, top: 649, position: 'absolute', color: 'rgba(204, 204, 204, 0.80)', fontSize: 15, fontFamily: 'Helvetica', fontWeight: '400', wordWrap: 'break-word'}}>
           SHOP SPECTACLES
@@ -23,10 +23,10 @@ function App() {
           SHOP CONTACT LENSES
         </div>
         <div className="Header" style={{width: 352, height: 49, left: 21, top: 44, position: 'absolute'}}>
-        <img className="Cartbutton" style={{width: 23, height: 23, left: 329, top: 13, position: 'absolute'}} src="./public/cartButton.png" />
-        <img className="Searchbutton" style={{width: 24, height: 24, left: 300, top: 12, position: 'absolute'}} src="./public/searchButton.png" />
-        <div className="Menubutton" style={{width: 24, height: 24, left: 0, top: 12, position: 'absolute'}} src="./public/menuButton.png"></div>
-        <img className="Logo" style={{width: 56, height: 49, left: 150, top: 0, position: 'absolute'}} src="./public/logo.png" />
+        <img className="Cartbutton" style={{width: 23, height: 23, left: 329, top: 13, position: 'absolute'}} src="cartButton.png" />
+        <img className="Searchbutton" style={{width: 24, height: 24, left: 300, top: 12, position: 'absolute'}} src="searchButton.png" />
+        <div className="Menubutton" style={{width: 24, height: 24, left: 0, top: 12, position: 'absolute'}} src="menuButton.png"></div>
+        <img className="Logo" style={{width: 56, height: 49, left: 150, top: 0, position: 'absolute'}} src="logo.png" />
         </div>
       </div>
 
